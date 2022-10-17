@@ -1,44 +1,44 @@
 h1 {
-    text-align: center;
-    padding: 1rem;
-    outline: 5px inset darkolivegreen;
-    color: darkolivegreen;
-    font-size: 40px;
-    text-shadow: 2px 2px white;
+  text-align: center;
+  padding: 1rem;
+  outline: 5px inset darkolivegreen;
+  color: darkolivegreen;
+  font-size: 40px;
+  text-shadow: 2px 2px white;
 }
 
 body {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0.5rem;
-    margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+  color: #685206;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 dt {
-    color: darkolivegreen;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    text-align: center;
-    padding-bottom: 1rem;
+  color: darkolivegreen;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 dd {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0.5rem;
-    margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+  color: #685206;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
