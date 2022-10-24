@@ -2,18 +2,22 @@ body {
   background-image: url("../images/abstract-colorful-lines-bright-circles.jpeg");
   background-size: 150px;
 }
+
 .gradiantui {
   height: 55vh;
   width: 80%;
   margin: auto;
-  background-color:white;
+  background-color: white;
   margin-top: 20px;
   display: flex;
 }
+
 html {
-  background-color:black;
+  background-color: black;
 }
-p, a{
+
+p,
+a {
   white-space: nowrap;
   font-size: 30px;
   font-style: italic;
@@ -22,28 +26,32 @@ p, a{
   font-family: Economica, sans-serif;
   text-decoration: none;
 }
+
 .helpbar {
   width: 80%;
   height: 50px;
-  background-color:#2e4f94;
+  background-color: #2e4f94;
   margin: auto;
   margin-top: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .helpbar a:hover {
-  color:#ff058f;
+  color: #ff058f;
 }
+
 .soundbox {
   height: 5rem;
   width: 80%;
   margin: auto;
-  background-color:white;
+  background-color: white;
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
+
 .buttons {
   display: flex;
   width: 80%;
@@ -53,6 +61,7 @@ p, a{
   flex-flow: wrap;
   justify-content: space-between;
 }
+
 .container2 {
   display: flex;
   align-items: center;
@@ -66,43 +75,55 @@ p, a{
   margin: 10px;
   border-radius: 5px;
 }
+
 #soundfile {
   height: inherit;
   width: inherit;
 }
+
 .container1 {
   height: 100%;
   width: 10%;
-  outline:7px solid white;
+  outline: 7px solid white;
   flex-shrink: 3;
 }
+
 .card1 {
-  background-color:#00d43c;  
+  background-color: #00d43c;
 }
+
 .card2 {
-  background-color:#65c900;
+  background-color: #65c900;
 }
+
 .card3 {
-  background-color:#caa000;
+  background-color: #caa000;
 }
+
 .card4 {
-  background-color:#f47900;
+  background-color: #f47900;
 }
+
 .card5 {
-  background-color:#ff6317;
+  background-color: #ff6317;
 }
+
 .card6 {
-  background-color:#ff4a3a;
+  background-color: #ff4a3a;
 }
+
 .card7 {
-  background-color:#ff2f57;
+  background-color: #ff2f57;
 }
+
 .card8 {
-  background-color:#ff0048;
+  background-color: #ff0048;
 }
+
 .card9 {
-  background-color:#ff0000;
+  background-color: #f00;
 }
+
 .card10 {
-  background-color:#ff058f;
+  background-color: #ff058f;
 }

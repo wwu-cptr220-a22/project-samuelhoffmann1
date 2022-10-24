@@ -9,8 +9,8 @@ html {
 body {
   background-image: url("../images/howto.png"), url("../images/howto.png");
   background-position: top left, top right;
-  background-size: 150px, 150px; 
-  background-repeat:repeat-y, repeat-y;
+  background-size: 150px, 150px;
+  background-repeat: repeat-y, repeat-y;
 }
 
 .container {
@@ -22,13 +22,13 @@ body {
   position: fixed;
   top: 2%;
   left: 35%;
-  background-color:#00d43c;
+  background-color: #00d43c;
 }
 
 a {
   padding: 15px;
   text-decoration: none;
-  color:white;
+  color: white;
   font-size: 26px;
 }
 
@@ -42,7 +42,7 @@ h1 {
   text-align: center;
   padding: 1rem;
   left: 28px;
-  color: #00D43C;
+  color: #00d43c;
   font-size: 44px;
   text-shadow: 2px 2px white;
   font-family: Economica, sans-serif;
@@ -58,4 +58,4 @@ p {
   width: 42rem;
   text-align: justify;
   text-justify: inter-word;
-  }
+}
