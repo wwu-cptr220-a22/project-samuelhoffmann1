@@ -1,14 +1,14 @@
 h1 {
   text-align: center;
   padding: 1rem;
-  outline: 5px inset #00D43C;
-  color: #00D43C;
+  outline: 5px inset #00d43c;
+  color: #00d43c;
   font-size: 40px;
   text-shadow: 2px 2px white;
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #40C9FF, #E81CFF);
+  background-image: linear-gradient(to bottom right, #40c9ff, #e81Cff);
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 }
 
 dt {
-  color: #00D43C;
+  color: #00d43c;
   font-family: Economica, sans-serif;
   font-size: 38px;
   font-weight: bold;
