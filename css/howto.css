@@ -23,7 +23,6 @@ img {
   top: 2%;
   left: 50%;
   margin-left: -150px;
-  /* Negative half of width. */
   background-color: #00d43c;
   text-align: center;
 }
@@ -47,10 +46,8 @@ h1 {
   font-family: Economica, sans-serif;
 }
 
-
 .information {
   display: flex;
-  flex-wrap: no-wrap;
   flex-direction: column;
   padding: 3rem;
 }
@@ -88,7 +85,6 @@ p {
     max-width: 50%;
     max-height: 50vh;
     margin: auto;
-
   }
 
   #navbar {
@@ -119,7 +115,6 @@ p {
 
   .information {
     display: flex;
-    flex-wrap: no-wrap;
     flex-direction: row;
     overflow-x: scroll;
   }
