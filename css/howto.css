@@ -1,35 +1,39 @@
 html {
   background-image: linear-gradient(to bottom right, #40c9ff, #e81cff);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+img {
+  display: none;
 }
 
 * {
   font-family: Economica, sans-serif;
 }
 
-body {
-  background-image: url("../images/howto.png"), url("../images/howto.png");
-  background-position: top left, top right;
-  background-size: 150px, 150px;
-  background-repeat: repeat-y, repeat-y;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: fit-content;
-  height: 30px;
+#navbar {
   position: fixed;
+  width: 300px;
+  height: fit-content;
+  padding: 8px;
+  border: 3px solid #147d43;
   top: 2%;
-  left: 35%;
+  left: 50%;
+  margin-left: -150px;
+  /* Negative half of width. */
   background-color: #00d43c;
+  text-align: center;
 }
 
 a {
-  padding: 15px;
+  padding: 18px;
   text-decoration: none;
   color: white;
-  font-size: 26px;
+  font-size: 14px;
 }
 
 a:hover {
@@ -37,25 +41,101 @@ a:hover {
 }
 
 h1 {
-  margin: auto;
-  margin-top: 2rem;
   text-align: center;
-  padding: 1rem;
-  left: 28px;
   color: #00d43c;
-  font-size: 44px;
+  font-size: 32px;
   text-shadow: 2px 2px white;
   font-family: Economica, sans-serif;
+}
+
+
+.information {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  padding: 3rem;
 }
 
 p {
   color: black;
   font-family: Economica, sans-serif;
-  font-size: 28px;
-  line-height: 30px;
-  margin: auto;
+  font-size: 18px;
+  line-height: 20px;
   margin-bottom: 30px;
-  width: 42rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.item {
+  border: 3px solid #147d43;
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .imgbox {
+    display: grid;
+    height: 50%;
+    background-color: #57d3d1;
+  }
+
+  .center-fit {
+    display: inline;
+    max-width: 50%;
+    max-height: 50vh;
+    margin: auto;
+
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+    color: #00d43c;
+    font-size: 38;
+    text-shadow: 2px 2px black;
+    font-family: Economica, sans-serif;
+  }
+
+  p {
+    color: black;
+    font-family: Economica, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    width: 24rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .information {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .item {
+    padding: 16px;
+    border: 3px solid #147d43;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    flex: 0 0 auto;
+    width: auto;
+    height: 500px;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
