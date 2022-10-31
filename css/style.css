@@ -1,45 +1,96 @@
 h1 {
   text-align: center;
-  padding: 1rem;
   outline: 5px inset #00d43c;
+  width: 50%;
+  margin: auto;
   color: #00d43c;
-  font-size: 40px;
-  text-shadow: 2px 2px white;
+  font-size: 32px;
+  text-shadow: 2px 2px black;
+  font-family: Economica, sans-serif;
+  padding: 0.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.item {
+  border: 3px solid #147d43;
+  border-radius: 10px;
+  background-color: white;
+  width: 360px;
+  margin: auto;
+  margin-top: 10px;
 }
 
 body {
   background-image: linear-gradient(to bottom right, #40c9ff, #e81cff);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 p {
   color: black;
   font-family: Economica, sans-serif;
-  font-size: 28px;
-  line-height: 30px;
-  padding: 0.5rem;
-  margin: 0 0 24px;
+  font-size: 24px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
   text-align: justify;
   text-justify: inter-word;
 }
 
-dt {
-  color: #00d43c;
-  font-family: Economica, sans-serif;
-  font-size: 38px;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-  padding-bottom: 1rem;
-}
+@media (min-width: 768px) {
+  p {
+    color: black;
+    font-family: Economica, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    width: 36rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
-dd {
-  color: black;
-  font-family: Economica, sans-serif;
-  font-size: 28px;
-  line-height: 30px;
-  padding: 0.5rem;
-  margin: 0 0 24px;
-  text-align: justify;
-  text-justify: inter-word;
+  h1 {
+    text-align: center;
+    outline: 5px inset #00d43c;
+    width: 50%;
+    margin: auto;
+    color: #00d43c;
+    font-size: 38px;
+    text-shadow: 2px 2px black;
+    font-family: Economica, sans-serif;
+    padding: 0.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .item {
+    border: 3px solid #147d43;
+    border-radius: 10px;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 15px solid #147d43;
+    margin: 1em 0;
+    padding: 0;
+  }
 }
